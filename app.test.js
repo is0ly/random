@@ -1,5 +1,5 @@
-const { sum } = require("./app");
+const { randomArray } = require("./app");
 
-test("adds 1 + 2 to equal 3", () => {
-  expect(sum(1, 2)).toBe(3);
+test("randomArray(5, 5) should be return array length 5", () => {
+  expect(randomArray(5, 5)).toHaveLength(5);
 });
