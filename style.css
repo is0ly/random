@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0e1ec;
+  background-image: linear-gradient(180deg, #bbdae6 0%, #a5f7d2 100%);
+}
+.container {
+  padding: 3em;
+}

@@ -8,7 +8,6 @@ let randomData = [];
 
 btn.addEventListener("click", () => {
   randomData = randomObjectOfDigit(len.value, values.value);
-
   //   len.value = "";
   //   values.value = "";
   const ctx = document.getElementById("myChart").getContext("2d");
@@ -22,7 +21,7 @@ btn.addEventListener("click", () => {
           data: Object.values(randomData),
           backgroundColor: ["rgba(255, 99, 132, 0.2)"],
           borderColor: ["rgba(255, 99, 132, 1)"],
-          borderWidth: 1
+          borderWidth: 2
         }
       ]
     },
