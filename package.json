@@ -30,7 +30,11 @@
   "lint-staged": {
     "*.js": [
       "prettier -c",
-      "eslint"
+      "eslint --max-warnings=0"
     ]
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "random.js": "^0.1.0"
   }
 }

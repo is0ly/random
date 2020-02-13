@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Случайное распределение</title>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="myChart" width="500" height="400"></canvas>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="length" type="text" class="validate" />
+              <label for="last_name">Length</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="values" type="text" class="validate" />
+              <label for="last_name">Values</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <a class="waves-effect waves-light btn">randomize</a>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
