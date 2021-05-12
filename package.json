@@ -34,7 +34,7 @@
     ]
   },
   "dependencies": {
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "random.js": "^0.1.0"
   }
 }
